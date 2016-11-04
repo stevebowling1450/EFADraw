@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ME_Draw</string>
+    <string name="start_with_a_blank_image">Start With a Blank Image</string>
+    <string name="pick_a_starter_image">Pick a Starter Image</string>
+</resources>

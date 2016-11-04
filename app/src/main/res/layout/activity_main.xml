@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.efa.efadraw.MainActivity">
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="${relativePackage}.${activityClass}">
+
+        <include layout="@layout/draw_view"
+            android:id="@+id/draw_view"/>
+
+        <include layout="@layout/main_view"
+            android:id="@+id/main_view"/>
+
+    </FrameLayout>
+</RelativeLayout>
